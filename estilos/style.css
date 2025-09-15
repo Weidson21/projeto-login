@@ -2,6 +2,55 @@
 
 /*
 verde: #49a09d
-lilás: 5f2c82
+lilás: #5f2c82
+Versão Mobile
 */
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #5f2c82;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+div#formulario{
+    background-color: white;
+    margin: 40px auto;
+    top: 10%;
+    left: 15%;
+    max-width: 420px;
+    height: 80vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+div > h1{
+    text-align: center;
+    padding: 10px;
+}
+div > p{
+    text-align: justify;
+    padding: 10px;
+}
+div input{
+    width: 92%;
+    height: 30px;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+}
+div input:hover{
+    background-color: #03ccc5;
+}
+div input#entrar{
+    color: white;
+    background-color:#49a09d;
+    border-radius: 5px;
+    width: 97%;
+    height: 50px;
+    margin-left: 5px;
+}
+div input#entrar:hover{
+    background-color: #49a09d80;
+}
